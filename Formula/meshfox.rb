@@ -1,30 +1,30 @@
 class Meshfox < Formula
   desc "Markdown canvas with executable code blocks, terminal and web interfaces"
   homepage "https://meshfox.orofarne.net/"
-  version "0.27.0"
+  version "0.27.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/orofarne/meshfox/releases/download/v0.27.0/meshfox-aarch64-apple-darwin.tar.gz"
-      sha256 "34205166beddff40eac03d8ba58e351c52f7e1bbb35f907ff9a9f06df8796239"
+      url "https://github.com/orofarne/meshfox/releases/download/v0.27.1/meshfox-aarch64-apple-darwin.tar.gz"
+      sha256 "88871a468c08659efc9404406bdf6c233c77f82dc9799fa2e9d9845069493743"
     end
 
     on_intel do
-      url "https://github.com/orofarne/meshfox/releases/download/v0.27.0/meshfox-x86_64-apple-darwin.tar.gz"
-      sha256 "5bfca5ce456e6b828fe76c5b0cd20a786f7c25cd556d6e913b11215fad6ac629"
+      url "https://github.com/orofarne/meshfox/releases/download/v0.27.1/meshfox-x86_64-apple-darwin.tar.gz"
+      sha256 "d46c54c014d1cd6afee4dd8aae0ac51fc2e42aa1097fd89eae81c78224a3add2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/orofarne/meshfox/releases/download/v0.27.0/meshfox-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9dae8d8b77fd913b9f85fe5219575d9d9a9bba1709b7726ece00eff18037c02a"
+      url "https://github.com/orofarne/meshfox/releases/download/v0.27.1/meshfox-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "33a261b0ff124931278a579bd84f05cc398d494ae7989f92c971d7b963328238"
     end
 
     on_intel do
-      url "https://github.com/orofarne/meshfox/releases/download/v0.27.0/meshfox-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "babaa226cee63921f7c760ab8130a0fdf818f0b2cfb5acc1d0cd02eec00a88cf"
+      url "https://github.com/orofarne/meshfox/releases/download/v0.27.1/meshfox-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b7676592d463fa323611cf9fc7ae60fd011f658d669d9195cd0e9d19f0631be2"
     end
   end
 
